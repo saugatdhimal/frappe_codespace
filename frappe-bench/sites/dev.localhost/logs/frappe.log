@@ -1,0 +1,33 @@
+2024-05-13 06:37:40,605 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"name":1,"owner":"Administrator","creation":"2024-05-12 14:49:02.060201","modified":"2024-05-12 14:49:02.060201","modified_by":"Administrator","docstatus":0,"idx":0,"make":"BMW","year":2024,"color":"Red","modal":"S30","license_plate":"LP90879","doctype":"Vehicle","__last_sync_on":"2024-05-13T06:36:47.106Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-14 08:51:45,662 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"name":"Vehicles by Service Status","owner":"Administrator","creation":"2024-05-14 14:34:20.602403","modified":"2024-05-14 14:34:20.602403","modified_by":"Administrator","docstatus":0,"idx":0,"report_name":"Vehicles by Service Status","ref_doctype":"Vehicle","is_standard":"Yes","module":"Rentals","report_type":"Report Builder","add_total_row":0,"disabled":0,"prepared_report":0,"json":{"filters":[],"fields":[["status","Vehicle"],["_aggregate_column","Vehicle"]],"order_by":"`tabVehicle`.creation desc","add_totals_row":0,"page_length":20,"column_widths":{"status":120,"_aggregate_column":200},"group_by":{"group_by":"`tabVehicle`.`status`","aggregate_function":"count"}},"doctype":"Report","columns":[],"filters":[],"roles":[{"name":"utt6q9q25d","owner":"Administrator","creation":"2024-05-14 14:34:20.614723","modified":"2024-05-14 14:34:20.614723","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","parent":"Vehicles by Service Status","parentfield":"roles","parenttype":"Report","doctype":"Has Role"}],"__last_sync_on":"2024-05-14T08:49:37.355Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-14 08:51:51,155 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"name":"Vehicles by Service Status","owner":"Administrator","creation":"2024-05-14 14:34:20.602403","modified":"2024-05-14 14:34:20.602403","modified_by":"Administrator","docstatus":0,"idx":0,"report_name":"Vehicles by Service Status","ref_doctype":"Vehicle","is_standard":"Yes","module":"Rentals","report_type":"Report Builder","add_total_row":0,"disabled":0,"prepared_report":0,"json":{"filters":[],"fields":[["status","Vehicle"],["_aggregate_column","Vehicle"]],"order_by":"`tabVehicle`.creation desc","add_totals_row":0,"page_length":20,"column_widths":{"status":120,"_aggregate_column":200},"group_by":{"group_by":"`tabVehicle`.`status`","aggregate_function":"count"}},"doctype":"Report","columns":[],"filters":[],"roles":[{"name":"utt6q9q25d","owner":"Administrator","creation":"2024-05-14 14:34:20.614723","modified":"2024-05-14 14:34:20.614723","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","parent":"Vehicles by Service Status","parentfield":"roles","parenttype":"Report","doctype":"Has Role"}],"__last_sync_on":"2024-05-14T08:49:37.355Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-14 08:52:17,601 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"name":"Vehicles by Service Status","owner":"Administrator","creation":"2024-05-14 14:34:20.602403","modified":"2024-05-14 14:34:20.602403","modified_by":"Administrator","docstatus":0,"idx":0,"report_name":"Vehicles by Service Status","ref_doctype":"Vehicle","is_standard":"Yes","module":"Rentals","report_type":"Report Builder","add_total_row":0,"disabled":0,"prepared_report":0,"json":{"filters":[],"fields":[["status","Vehicle"],["_aggregate_column","Vehicle"]],"order_by":"`tabVehicle`.creation desc","add_totals_row":0,"page_length":20,"column_widths":{"status":120,"_aggregate_column":200},"group_by":{"group_by":"`tabVehicle`.`status`","aggregate_function":"count"}},"doctype":"Report","columns":[],"filters":[],"roles":[{"name":"utt6q9q25d","owner":"Administrator","creation":"2024-05-14 14:34:20.614723","modified":"2024-05-14 14:34:20.614723","modified_by":"Administrator","docstatus":0,"idx":1,"role":"System Manager","parent":"Vehicles by Service Status","parentfield":"roles","parenttype":"Report","doctype":"Has Role"}],"__last_sync_on":"2024-05-14T08:49:37.355Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-14 09:00:16,155 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'name': 'Vehicles by Service Status', 'cmd': 'frappe.email.doctype.auto_email_report.auto_email_report.send_now'}
+2024-05-14 09:15:17,443 ERROR frappe Error while inserting deferred Error Log record: Error Log vd3mtb4612: 'Title' ((1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'filters\': \'()\', \'fields\': "((\'status\',\'Vehicle\'),(\'_aggregate_column\',\'Vehic...\' at line 2')) will get truncated, as max characters allowed is 140
+Site: dev.localhost
+Form Dict: {}
+2024-05-14 09:15:17,446 ERROR frappe Error while inserting deferred Error Log record: Error Log vd3mn00fkr: 'Title' ((1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'filters\': \'()\', \'fields\': "((\'status\',\'Vehicle\'),(\'_aggregate_column\',\'Vehic...\' at line 2')) will get truncated, as max characters allowed is 140
+Site: dev.localhost
+Form Dict: {}
+2024-05-14 09:15:17,448 ERROR frappe Error while inserting deferred Error Log record: Error Log vd3m3ndfol: 'Title' ((1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'filters\': \'()\', \'fields\': "((\'status\',\'Vehicle\'),(\'_aggregate_column\',\'Vehic...\' at line 2')) will get truncated, as max characters allowed is 140
+Site: dev.localhost
+Form Dict: {}
+2024-05-14 09:19:52,970 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{"make":"d"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2024-05-14 09:19:59,786 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{"make":"b"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
+2024-05-14 09:21:41,209 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'report_name': 'Vehicles by Make', 'filters': '{"make":"%b%"}', 'ignore_prepared_report': 'false', 'are_default_filters': 'false', 'cmd': 'frappe.desk.query_report.run'}
