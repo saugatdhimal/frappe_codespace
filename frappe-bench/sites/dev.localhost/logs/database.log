@@ -1,0 +1,103 @@
+2024-05-16 18:08:39,876 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option Value` MODIFY `name` bigint
+2024-05-16 18:21:16,800 WARNING database DDL Query made to DB:
+alter table `tabProduct Option` add column if not exists parent varchar(140)
+2024-05-16 18:21:16,801 WARNING database DDL Query made to DB:
+alter table `tabProduct Option` add column if not exists parenttype varchar(140)
+2024-05-16 18:21:16,802 WARNING database DDL Query made to DB:
+alter table `tabProduct Option` add column if not exists parentfield varchar(140)
+2024-05-16 18:21:16,958 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option` ADD COLUMN `option` varchar(140)
+2024-05-16 18:45:27,977 WARNING database DDL Query made to DB:
+create table `tabProduct Option Test` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-05-16 18:45:59,523 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Test` add column if not exists parent varchar(140)
+2024-05-16 18:45:59,524 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Test` add column if not exists parenttype varchar(140)
+2024-05-16 18:45:59,525 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Test` add column if not exists parentfield varchar(140)
+2024-05-16 18:45:59,644 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option Test` ADD COLUMN `title` varchar(140)
+2024-05-16 18:46:33,594 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Test` add column if not exists parent varchar(140)
+2024-05-16 18:46:33,595 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Test` add column if not exists parenttype varchar(140)
+2024-05-16 18:46:33,596 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Test` add column if not exists parentfield varchar(140)
+2024-05-16 18:56:33,008 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option Value` MODIFY `name` varchar(140)
+2024-05-16 19:00:01,250 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option Name` MODIFY `name` varchar(140)
+2024-05-16 19:15:59,345 WARNING database DDL Query made to DB:
+create table `tabProduct Option Link` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-05-16 19:17:22,906 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Link` add column if not exists parent varchar(140)
+2024-05-16 19:17:22,907 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Link` add column if not exists parenttype varchar(140)
+2024-05-16 19:17:22,908 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Link` add column if not exists parentfield varchar(140)
+2024-05-16 19:17:22,999 WARNING database DDL Query made to DB:
+create sequence if not exists product_option_link_id_seq nocache nocycle
+2024-05-16 19:17:23,134 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option Link` MODIFY `name` bigint
+2024-05-16 19:17:23,229 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option Link` ADD COLUMN `product_option` varchar(140)
+2024-05-16 19:23:00,094 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct` MODIFY `available_for_sale` tinyint NOT NULL DEFAULT 0
+2024-05-17 06:27:06,417 WARNING database DDL Query made to DB:
+create table `tabProduct Option Name Link` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-05-17 06:27:43,132 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Name Link` add column if not exists parent varchar(140)
+2024-05-17 06:27:43,133 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Name Link` add column if not exists parenttype varchar(140)
+2024-05-17 06:27:43,134 WARNING database DDL Query made to DB:
+alter table `tabProduct Option Name Link` add column if not exists parentfield varchar(140)
+2024-05-17 06:27:43,271 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct Option Name Link` ADD COLUMN `option_name` varchar(140)
+2024-05-17 06:29:26,607 WARNING database DDL Query made to DB:
+ALTER TABLE `tabProduct` MODIFY `available_for_sale` tinyint NOT NULL DEFAULT 0

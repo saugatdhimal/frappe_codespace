@@ -1,0 +1,105 @@
+2024-05-16 07:28:11,572 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Name', 'ignore_user_permissions': '0', 'reference_doctype': 'Product Option', 'page_length': '10', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-16 07:38:39,405 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doctype': 'Product Option Name', 'name': 'Product Option Name', 'cmd': 'frappe.share.get_users'}
+2024-05-16 08:15:16,336 ERROR frappe Error while inserting deferred Error Log record: Error Log j1ebcgq90n: 'Title' (Module import failed for Product Option Name, the DocType you're trying to open might be deleted. Error: No module named 'frappe.core.doctype.product_option_name') will get truncated, as max characters allowed is 140
+Site: dev.localhost
+Form Dict: {}
+2024-05-16 18:00:07,815 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doctype': 'DocType', 'old': 'Product Option', 'new': 'Product Option Name', 'merge': '0', 'cmd': 'frappe.rename_doc'}
+2024-05-16 18:01:53,491 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doctype': 'Product Option Name', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-05-16 18:02:19,991 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doctype': 'Product Option Name', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-05-16 19:07:19,681 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Product","name":"new-product-llsiojwitd","__islocal":1,"__unsaved":1,"owner":"Administrator","options":[{"docstatus":0,"doctype":"Product Option","name":"new-product-option-ewauvdkgjb","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":1,"option":"Color-Black"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-smjpndyhzh","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":2,"option":"Color-White"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-fmuiicazcw","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":3,"option":"Size-41"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-nxtwemwtwo","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":4,"option":"Size-42"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-qrqxycoaao","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":5,"option":"Color-Red"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-wiuhgwgeib","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":6,"option":"Size-40"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-tyyeuuuwjj","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":7,"option":"Color-Yellow"}],"title":"Reebok"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-16 19:07:39,835 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Product","name":"new-product-llsiojwitd","__islocal":1,"__unsaved":1,"owner":"Administrator","options":[{"docstatus":0,"doctype":"Product Option","name":"new-product-option-ewauvdkgjb","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":1,"option":"Color-Black"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-smjpndyhzh","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":2,"option":"Color-White"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-fmuiicazcw","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":3,"option":"Size-41"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-nxtwemwtwo","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":4,"option":"Size-42"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-qrqxycoaao","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":5,"option":"Color-Red"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-wiuhgwgeib","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":6,"option":"Size-40"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-tyyeuuuwjj","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-llsiojwitd","parentfield":"options","parenttype":"Product","idx":7,"option":"Color-Yellow"}],"title":"Reebok"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-16 19:11:08,703 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Product","name":"new-product-nacpwiugfy","__islocal":1,"__unsaved":1,"owner":"Administrator","options":[{"docstatus":0,"doctype":"Product Option","name":"new-product-option-hwmpemnsro","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":1,"option":"Color-Black"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-fmehhsaihq","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":2,"option":"Size-40"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-cbpylnsisb","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":3,"option":"Color-White"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-hhigbvjogc","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":4,"option":"Size-41"}],"title":"Reebok"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-16 19:11:33,173 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Product","name":"new-product-nacpwiugfy","__islocal":1,"__unsaved":1,"owner":"Administrator","options":[{"docstatus":0,"doctype":"Product Option","name":"new-product-option-hwmpemnsro","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":1,"option":"Color-Black"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-kbrqdlfxcq","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":2,"option":"Size-41"}],"title":"Reebok"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-16 19:11:38,013 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Product","name":"new-product-nacpwiugfy","__islocal":1,"__unsaved":1,"owner":"Administrator","options":[{"docstatus":0,"doctype":"Product Option","name":"new-product-option-hwmpemnsro","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":1,"option":"Color-Black"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-kbrqdlfxcq","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":2,"option":"Size-41"}],"title":"Reebok"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-16 19:11:43,587 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Product","name":"new-product-nacpwiugfy","__islocal":1,"__unsaved":1,"owner":"Administrator","options":[{"docstatus":0,"doctype":"Product Option","name":"new-product-option-hwmpemnsro","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":1,"option":"Color-Black"},{"docstatus":0,"doctype":"Product Option","name":"new-product-option-kbrqdlfxcq","__islocal":1,"__unsaved":1,"owner":"Administrator","parent":"new-product-nacpwiugfy","parentfield":"options","parenttype":"Product","idx":2,"option":"Size-41"}],"title":"Reebok"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-05-17 07:18:26,005 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'filters': '{"title":["Color"]}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 07:19:43,654 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'filters': '["Color"]', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:16:28,445 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.doctype.product.product.options_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:17:29,161 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.product.options_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:20:57,274 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:23:35,281 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:30:25,520 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:36:43,094 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:37:37,035 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:39:33,768 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:40:23,092 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:41:52,052 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:43:23,961 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:44:26,898 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:45:21,465 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:48:28,446 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{"title":["Color"]}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:51:58,023 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '{"title":["in",["Color"]]}', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:55:21,953 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '[["Title","IN",["Color"]]]', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 08:56:16,598 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '[["title","IN",["Color"]]]', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 09:13:07,650 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '[["title","IN",["Color"]]]', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 09:15:22,095 ERROR frappe Error while inserting deferred Error Log record: Error Log egd4n13uqi: 'Title' (Module import failed for product_option_value, the DocType you're trying to open might be deleted. Error: No module named 'frappe.core.doctype.product_option_value') will get truncated, as max characters allowed is 140
+Site: dev.localhost
+Form Dict: {}
+2024-05-17 09:25:49,773 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '[["title","IN",["Color"]]]', 'cmd': 'frappe.desk.search.search_link'}
+2024-05-17 09:25:57,412 ERROR frappe New Exception collected in error log
+Site: dev.localhost
+Form Dict: {'txt': '', 'doctype': 'Product Option Value', 'ignore_user_permissions': '0', 'reference_doctype': 'Product', 'page_length': '10', 'query': 'ecommerce.ecommerce.doctype.product.option_value_query.option_value_query', 'filters': '[["title","IN",["Color"]]]', 'cmd': 'frappe.desk.search.search_link'}
